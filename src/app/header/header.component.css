@@ -1,0 +1,24 @@
+.header{
+    text-align: center;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.5em;
+    background-color: rgb(15, 40, 49);
+    opacity: 0.75;
+    width: 100%;
+    height: 110px;
+
+    display: flex; /* Muestra los div en horizontal */
+    justify-content: space-between; /* Separa los div en cada extremo */
+    align-items: center; /* centra de forma vertical */
+}
+
+#logoPersonal{
+    width: 64px;
+    margin-left: 2cm;
+    
+}
+
+#logoGithub{
+    margin-right: 2cm;
+}
