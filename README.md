@@ -3,7 +3,7 @@
 - Se agrego el componente header y el componente vistas
 - Se agrego algo de css
 
-https://github.com/albertovmtz/mi-catalogo/blob/master/preview/E1%20A%232.png
+![](/preview/E1%20A%232.png)
 
 
 # MiCatalogo
