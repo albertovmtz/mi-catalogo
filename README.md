@@ -1,3 +1,24 @@
+# Vista Previa de Mi Catalogo
+
+##E2 A3
+
+- Se agrego la informacion de los carros.
+- Se agrego el icono del ojo
+- Se le dio estilo al ojo y a la información de los carros
+
+![](/preview/E2A3.png)
+
+
+##Evidencia 1
+
+- Se agrego el componente header y el componente vistas
+- Se agrego algo de css
+
+![](/preview/E1%20A%232.png)
+
+
+
+
 # MiCatalogo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
