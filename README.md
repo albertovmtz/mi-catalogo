@@ -1,6 +1,6 @@
 # Vista Previa de Mi Catalogo
 
-##E2 A3
+## E2 A3
 
 - Se agrego la informacion de los carros.
 - Se agrego el icono del ojo
@@ -9,7 +9,7 @@
 ![](/preview/E2A3.png)
 
 
-##Evidencia 1
+## Evidencia 1
 
 - Se agrego el componente header y el componente vistas
 - Se agrego algo de css
