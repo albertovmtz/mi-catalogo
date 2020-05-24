@@ -1,5 +1,11 @@
 # Vista Previa de Mi Catalogo
 
+##E2 A4
+
+-Se agrego para mostrar informacion mas detallada sobre los carros al dar clic en el icono del ojo
+
+![](preview/E2A4.png)
+
 ##E2 A3
 
 - Se agrego la informacion de los carros.

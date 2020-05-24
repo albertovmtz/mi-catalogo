@@ -1,7 +1,10 @@
 <div class="contenedor">
-    
-    <div *ngFor='let auto of autos' class="listBox">
-        <div class="iconoOjo"><i class="fas fa-eye fa-3x" id="ojo"></i></div>
-       <div class="textoOjo"> {{ auto.descripcion }}</div>
+    <div  *ngFor='let auto of autos' class="listBox">
+        <div class="iconoOjo fas fa-eye fa-3x" (click)="onSelect(auto)" id="ojo"></div>
+       <div class="textoOjo" > {{ auto.descripcion }}</div>
     </div>
+</div>
+
+<div style="color: white; text-align: center;">
+    {{autoSeleccionado.marca}} - {{autoSeleccionado.fecha_registro}}
 </div>

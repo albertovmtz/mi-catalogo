@@ -1,8 +1,7 @@
 .contenedor{
     
-    margin: 5rem;
-    padding: 1rem;
-    width: auto;
+    margin: 50px 50px 0px 50px;
+    text-align: center;
     /* IMPORTANTE */
     display: flex;
     text-align: center;
