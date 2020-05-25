@@ -1,6 +1,15 @@
 # Vista Previa de Mi Catalogo
 
-##E3 A5
+## E3 A6
+
+- Se agrega una Page Not Found
+- Se agrego una pagina por default al entrar a la pagina
+
+![](/preview/E3A6.png)
+
+![](/preview/E3A6codigo.png)
+
+## E3 A5
 
 - Se agrego los routerLink para Lista y Tabla.
 - Se modifico css.
@@ -8,13 +17,13 @@
 
 ![](/preview/E3A5.png)
 
-##E2 A4
+## E2 A4
 
 - Se agrego para mostrar informacion mas detallada sobre los carros al dar clic en el icono del ojo
 
 ![](preview/E2A4.png)
 
-##E2 A3
+## E2 A3
 
 - Se agrego la informacion de los carros.
 - Se agrego el icono del ojo
