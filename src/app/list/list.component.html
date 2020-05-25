@@ -1,4 +1,4 @@
-<div class="contenedor">
+<!-- <div class="contenedor">
     <div  *ngFor='let auto of autos' class="listBox">
         <div class="iconoOjo fas fa-eye fa-3x" (click)="onSelect(auto)" id="ojo"></div>
        <div class="textoOjo" > {{ auto.descripcion }}</div>
@@ -7,4 +7,16 @@
 
 <div style="color: white; text-align: center;">
     {{autoSeleccionado.marca}} - {{autoSeleccionado.fecha_registro}}
+</div> -->
+<div class="espacio"></div>
+<ng-container *ngFor="let auto of autos">
+    <div class="list">
+        <div class="item item-icon fas fa-eye fa-3x" (click)="onSelect(auto)"></div>
+        <div class="item item-descripcion">{{ auto.descripcion}}</div>
+    </div>
+</ng-container>
+
+
+<div style="color: white; text-align: center;">
+    {{autoSeleccionado.marca}} / {{autoSeleccionado.fecha_registro}}
 </div>

@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { VistasComponent } from './vistas/vistas.component';
 import { ListComponent } from './list/list.component';
+import { TableComponent } from './table/table.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ListComponent } from './list/list.component';
     AppComponent,
     HeaderComponent,
     VistasComponent,
-    ListComponent
+    ListComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,

@@ -1,8 +1,16 @@
 # Vista Previa de Mi Catalogo
 
+##E3 A5
+
+- Se agrego los routerLink para Lista y Tabla.
+- Se modifico css.
+- Se cambiaron etiquetas div por etiquetas nav y etiquetas a.
+
+![](/preview/E3A5.png)
+
 ##E2 A4
 
--Se agrego para mostrar informacion mas detallada sobre los carros al dar clic en el icono del ojo
+- Se agrego para mostrar informacion mas detallada sobre los carros al dar clic en el icono del ojo
 
 ![](preview/E2A4.png)
 

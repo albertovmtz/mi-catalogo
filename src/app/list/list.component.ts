@@ -13,15 +13,17 @@ export class ListComponent implements OnInit {
   autos: Automovil[];
   autoSeleccionado: Automovil;
 
-  closeResult = ' ';
+  closeResult = '';
   constructor(private modalService: NgbModal) { }
 
   ngOnInit(): void {
     this.autos = AUTOMOVILES;
+    
   }
 
   onSelect(auto: Automovil){
     this.autoSeleccionado = auto;
 
   }
+  
 }
