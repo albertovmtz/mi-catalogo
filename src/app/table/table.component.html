@@ -5,26 +5,24 @@
             <th scope="col">Marca</th>
             <th scope="col">Submarca</th>
             <th scope="col">Descripcion</th>
+            <th scope="col">Modelo</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let auto of autos; index as i">
-            <th scope="row"> {{ i + 1 }}</th>
+        <tr *ngFor="let auto of autos | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize">
+            <th scope="row"> {{ auto._id }}</th>
             <td> {{ auto.marca }} </td>
             <td> {{ auto.submarca }} </td>
-            <td> {{ auto. descripcion }}</td>
+            <td> {{ auto.descripcion }}</td>
+            <td> {{ auto.modelos }}</td>
+            <td> <i class="fas fa-trash-alt"></i> </td>
+            <td> <i class="fas fa-edit"></i> </td>
         </tr>
     </tbody>
 </table>
-<!--
-<div class="d-flex justify-content-between p-2">
-    <ngb-pagination [collectionSize] ="collectionSize" [(page)]="page" [pageSize] ="pageSize"></ngb-pagination>
-    <select class="custom-select" style="width: auto" [(ngModel)]="pageSize">
-        <option [ngValue]="2">2 items por pagina</option>
-        <option [ngValue]="4">4 items por pagina</option>
-        <option [ngValue]="6">6 items por pagina</option>
-      </select>
 
-</div>
--->
+<ngb-pagination class="pagination d-flex justify-content-center" [collectionSize]="autos.length" [(page)]="page" aria-label="Default pagination" style="margin-top: 70px;"></ngb-pagination>
+
 

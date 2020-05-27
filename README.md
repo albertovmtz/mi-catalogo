@@ -1,5 +1,16 @@
 # Vista Previa de Mi Catalogo
 
+## E4 A10
+
+- Se agrego el pagination a la tabla y a la lista.
+- Se agrego los iconos de editar y eliminar
+- Se agrego un footer personal al index
+- Se hicieron modificaciones al css personal y css de bootstrap.
+
+![](/preview/E4A10Lista.png)
+
+![](/preview/E4A10Tabla.png)
+
 ## E4 A9
 
 - Se agrego la api para mostrar los datos en la lista y en la tabla.

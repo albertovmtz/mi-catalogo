@@ -1,24 +1,9 @@
-<!-- <div class="contenedor">
-    <div  *ngFor='let auto of autos' class="listBox">
-        <div class="iconoOjo fas fa-eye fa-3x" (click)="onSelect(auto)" id="ojo"></div>
-       <div class="textoOjo" > {{ auto.descripcion }}</div>
-    </div>
-</div>
-
-<div style="color: white; text-align: center;">
-    {{autoSeleccionado.marca}} - {{autoSeleccionado.fecha_registro}}
-</div> -->
 <div class="espacio"></div>
-<ng-container *ngFor="let auto of autos">
+<ng-container *ngFor="let auto of autos | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize">
     <div class="list">
         <div class="item item-icon fas fa-eye fa-3x" (click)="open(auto)"></div>
         <div class="item item-descripcion">{{ auto.descripcion}}</div>
     </div>
 </ng-container>
 
-<!-- Se elimino este div porque no dejaba que la descripcion de los autos se mostrara
-    
-<div style="color: white; text-align: center;">
-    {{autoSeleccionado.marca}} / {{autoSeleccionado.fecha_registro}}
-</div>
--->
+<ngb-pagination class="pagination d-flex justify-content-center" [collectionSize]="autos.length" [(page)]="page" aria-label="Default pagination"></ngb-pagination>

@@ -16,11 +16,15 @@ export class ListComponent implements OnInit {
 
   closeResult = '';
   constructor(private modalService: NgbModal, private autosService: AutosService) { }
+  page: number;
+  pageSize: number;
 
   ngOnInit(): void {
     this.autosService.getAutos().subscribe((response) =>{
       this.autos = response.data;
     })
+    this.pageSize = 10;
+    this.page=+sessionStorage.getItem('currentPage');
     
   }
 

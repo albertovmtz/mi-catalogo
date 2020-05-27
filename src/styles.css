@@ -3,3 +3,14 @@ body, html{
     margin: 0;
     background-image: url(/assets/images/backg.jpg);
 }
+
+.footerConBackground{
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: rgba(52, 58, 64, 0.9);
+    opacity: 0.75;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

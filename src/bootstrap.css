@@ -4819,9 +4819,15 @@ input[type="button"].btn-block {
 }
 
 .card-footer {
-  padding: 0.75rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgb(15, 40, 49);
+    opacity: 0.75;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .card-footer:last-child {
@@ -5032,16 +5038,16 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
-  background-color: #fff;
+  color: white;
+  background-color: rgba(52, 58, 64, 0.9);
   border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #0056b3;
+  color: black;
   text-decoration: none;
-  background-color: #e9ecef;
+  background-color: rgb(233, 236, 239);
   border-color: #dee2e6;
 }
 
@@ -5064,9 +5070,9 @@ input[type="button"].btn-block {
 
 .page-item.active .page-link {
   z-index: 3;
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: black;
+  background-color: white;
+  border-color: #ff2b63;
 }
 
 .page-item.disabled .page-link {

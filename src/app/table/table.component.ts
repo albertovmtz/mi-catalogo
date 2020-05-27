@@ -13,8 +13,10 @@ export class TableComponent implements OnInit {
   constructor(private autosService: AutosService) { }
   autos: Automovil[];
   autoSeleccionado: Automovil;
-  pageSize: number;
   page: number;
+  pageSize: number;
+  
+
 
   displayProgressBar: boolean;
 
@@ -22,6 +24,8 @@ export class TableComponent implements OnInit {
     this.autosService.getAutos().subscribe((response) =>{
       this.autos = response.data;
     })
+    this.pageSize = 12;
+    this.page=+sessionStorage.getItem('currentPage');
   }
 
   
