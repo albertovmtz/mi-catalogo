@@ -1,5 +1,20 @@
 # Vista Previa de Mi Catalogo
 
+## E4 A9
+
+- Se agrego la api para mostrar los datos en la lista y en la tabla.
+
+![](/preview/E4A9Lista.png)
+
+![](/preview/E4A9Tabla.png)
+
+## E3 A7
+
+- Se agrego la estructura para una tabla NgBootstrap en el componente de tabla
+
+![](/preview/E3A7.png)
+
+
 ## E3 A6
 
 - Se agrega una Page Not Found

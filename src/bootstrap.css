@@ -1889,7 +1889,7 @@ pre code {
 .table-light td,
 .table-light thead th,
 .table-light tbody + tbody {
-  border-color: #fbfcfc;
+  border-color: rgb(251, 252, 252);
 }
 
 .table-hover .table-light:hover {
@@ -1940,19 +1940,19 @@ pre code {
 
 .table .thead-dark th {
   color: #fff;
-  background-color: #343a40;
+  background-color: rgb(52, 58, 64);
   border-color: #454d55;
 }
 
 .table .thead-light th {
   color: #495057;
-  background-color: #e9ecef;
+  background-color: rgba(233, 236, 239, 1);
   border-color: #dee2e6;
 }
 
 .table-dark {
   color: #fff;
-  background-color: #343a40;
+  background-color: rgba(52, 58, 64, 0.9);
 }
 
 .table-dark th,
@@ -6036,7 +6036,7 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -6072,6 +6072,7 @@ a.close.disabled {
   border-bottom: 1px solid #dee2e6;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
+  background-color: white;
 }
 
 .modal-header .close {

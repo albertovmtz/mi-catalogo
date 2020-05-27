@@ -11,12 +11,14 @@
 <div class="espacio"></div>
 <ng-container *ngFor="let auto of autos">
     <div class="list">
-        <div class="item item-icon fas fa-eye fa-3x" (click)="onSelect(auto)"></div>
+        <div class="item item-icon fas fa-eye fa-3x" (click)="open(auto)"></div>
         <div class="item item-descripcion">{{ auto.descripcion}}</div>
     </div>
 </ng-container>
 
-
+<!-- Se elimino este div porque no dejaba que la descripcion de los autos se mostrara
+    
 <div style="color: white; text-align: center;">
     {{autoSeleccionado.marca}} / {{autoSeleccionado.fecha_registro}}
 </div>
+-->
