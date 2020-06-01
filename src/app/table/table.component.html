@@ -1,3 +1,7 @@
+<div style="text-align: right; margin: 5px 50px;">
+    <button type="button" class="btn btn-dark" (click)="openModalAgregar()">Agregar <i class="fa fa-plus"></i></button>
+</div>
+
 <table  class="table table-dark table-hover" >
     <thead class="thead-light">
         <tr>
@@ -17,12 +21,12 @@
             <td> {{ auto.submarca }} </td>
             <td> {{ auto.descripcion }}</td>
             <td> {{ auto.modelos }}</td>
-            <td> <i class="fas fa-trash-alt"></i> </td>
-            <td> <i class="fas fa-edit"></i> </td>
+            <td (click)="openModalConfirmarEliminar(auto)"> <i class="fas fa-trash-alt"></i> </td>
+            <td (click)="openModalEditar(auto)"> <i class="fas fa-edit"></i> </td>
         </tr>
     </tbody>
 </table>
 
-<ngb-pagination class="pagination d-flex justify-content-center" [collectionSize]="autos.length" [(page)]="page" aria-label="Default pagination" style="margin-top: 70px;"></ngb-pagination>
+<ngb-pagination class="pagination d-flex justify-content-center" [collectionSize]="autos.length" [(page)]="page" aria-label="Default pagination" style="margin-top: 40px;"></ngb-pagination>
 
 

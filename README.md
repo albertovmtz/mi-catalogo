@@ -1,5 +1,20 @@
 # Vista Previa de Mi Catalogo
 
+## E5 A12
+
+- Se agregó el boton Agregar.
+- Se agregó la interfaz para Agregar.
+- Se agregó la interfaz para Editar.
+- Se agregó la interfaz para Eliminar.
+- Todas las interfaces tienen funcionalidad.
+- Se modifico la css de bootstrap para que la interfaz completa maneje la misma paleta de colores.
+
+![](/preview/E5A12agregar.png)
+
+![](/preview/E5A12editar.png)
+
+![](/preview/E5A12eliminar.png)
+
 ## E4 A10
 
 - Se agrego el pagination a la tabla y a la lista.
