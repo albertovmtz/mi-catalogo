@@ -1,6 +1,11 @@
+
 <div class="espacio"></div>
+<div *ngIf="displayProgressBar">
+    <ngb-progressbar class="progress progress-bar"type="dark" [value]="100" [showValue]="true" [animated]="true" [striped]="true" ></ngb-progressbar>
+</div>
 <ng-container *ngFor="let auto of autos | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize">
-    <div class="list">
+   
+    <div class="list">    
         <div class="item item-icon fas fa-eye fa-3x" (click)="open(auto)"></div>
         <div class="item item-descripcion">{{ auto.descripcion}}</div>
     </div>

@@ -1,6 +1,13 @@
 # Vista Previa de Mi Catalogo
 
-## E5 A12
+## E5 A13.5
+
+- Se agrego alerta para cuando un campo es requerido
+- Se agrego minlength de 4 caracteres a marca y submarca.
+- Se desactivo el boton guardar para cuando no se cumplan con las condiciones necesarias que marcan las alertas.
+- Se agrego dos input type="range" para los modelos, ** PERO AUN NO PUEDO HACER QUE TENGAN FUNCIONALIDAD **.
+
+## E5 A12 y A13
 
 - Se agregó el boton Agregar.
 - Se agregó la interfaz para Agregar.

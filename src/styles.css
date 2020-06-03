@@ -7,10 +7,17 @@ body, html{
 .footerConBackground{
     color: white;
     font-family: 'Julius Sans One', sans-serif;
-    background-color: rgba(52, 58, 64, 0.9);
-    opacity: 0.75;
+    background-color: rgba(52, 58, 64, 1);
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.ng-valid[required]{
+    border-left: 5px solid green;
+}
+
+.ng-invalid:not(form){
+    border-left: 5px solid red;
 }

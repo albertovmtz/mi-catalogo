@@ -14,6 +14,8 @@ import { TableComponent } from './table/table.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { DetallesAutosComponent } from './detalles-autos/detalles-autos.component';
 import { ModalConfirmActionComponent } from './modal-confirm-action/modal-confirm-action.component';
+import { ForbiddenNameDirective } from './directives/forbidden-name.directive';
+import { FormatoModelosPipe } from './pipes/formato-modelos.pipe';
 
 
 
@@ -30,6 +32,8 @@ import { ModalConfirmActionComponent } from './modal-confirm-action/modal-confir
     DetallesAutosComponent,
     ModalAddUpdateComponent,
     ModalConfirmActionComponent,
+    ForbiddenNameDirective,
+    FormatoModelosPipe,
   ],
   imports: [
     BrowserModule,

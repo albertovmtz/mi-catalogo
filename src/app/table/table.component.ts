@@ -5,6 +5,7 @@ import { ModalAddUpdateComponent } from '../modal-add-update/modal-add-update.co
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ModalConfirmActionComponent } from '../modal-confirm-action/modal-confirm-action.component';
 
+
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
@@ -24,11 +25,19 @@ export class TableComponent implements OnInit {
   displayProgressBar: boolean;
 
   ngOnInit(): void {
-    this.autosService.getAutos().subscribe((response) =>{
-      this.autos = response.data;
-    })
+    this.displayProgressBar = true;
     this.pageSize = 12;
-    this.page=+sessionStorage.getItem('currentPage');
+    this.page= +sessionStorage.getItem('currentPage');
+    this.autosService.getAutos().subscribe((response) =>{
+      setTimeout(()=> {
+      this.autos = response.data;
+      this.displayProgressBar = false;
+      
+
+      },100)
+      
+    })
+    
   }
 
   openModalEditar(auto: Automovil){
@@ -38,7 +47,10 @@ export class TableComponent implements OnInit {
 
     modalRef.result.then(
       (auto) =>{
-        this.autosService.updateAutos(auto).subscribe(response => console.log(response));
+        this.autosService.updateAutos(auto).subscribe(value => {
+          sessionStorage.setItem('currentPage', this.page.toString());
+          this.ngOnInit();
+        });
       },
       (reason) => {
         console.log(reason)
@@ -51,7 +63,10 @@ export class TableComponent implements OnInit {
     modalRef.componentInstance.auto = auto;
     modalRef.result.then(
       (autoTemp) =>{
-        this.autosService.deleteAuto(autoTemp).subscribe(response => {})
+        this.autosService.deleteAuto(autoTemp).subscribe(response => {
+          sessionStorage.setItem('currentPage', this.page.toString());
+          this.ngOnInit();
+        })
       },
       (reason) =>{
         console.log(reason)
