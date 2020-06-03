@@ -1,5 +1,15 @@
 # Vista Previa de Mi Catalogo
 
+## E7 A#18
+
+- Se agrego un filtro y ya es funcional.
+
+![](/preview/E7A18.png)
+
+![](/preview/E7A18funcionando.png)
+
+
+
 ## E6 A#14, 15, 16 y 17
 
 - Se agrego la pipe para el formato de modelos.

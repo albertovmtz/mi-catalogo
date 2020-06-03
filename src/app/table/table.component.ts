@@ -19,6 +19,7 @@ export class TableComponent implements OnInit {
   autoSeleccionado: Automovil;
   page: number;
   pageSize: number;
+  searchText;
   
 
 
