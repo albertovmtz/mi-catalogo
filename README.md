@@ -1,5 +1,24 @@
 # Vista Previa de Mi Catalogo
 
+## E6 A#14, 15, 16 y 17
+
+- Se agrego la pipe para el formato de modelos.
+- Se agrego la progress bar a lista y tabla
+- Se implemento el sessionStorage para mejorar el UX.
+
+* En la imagen se muestra el elemento antes de eliminar.
+![](/preview/E6antes.png)
+
+* En la imagen se muestra la progress bar mientras el elemento esta siendo eliminado
+![](/preview/E6durante.png)
+
+* En la imagen se muestra que despues de eliminar el elemento, la interfaz se queda en la misma pagina
+
+![](/preview/E6despues.png)
+
+
+-Se agrego
+
 ## E5 A13.5
 
 - Se agrego alerta para cuando un campo es requerido
