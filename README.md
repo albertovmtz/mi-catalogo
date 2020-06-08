@@ -1,5 +1,11 @@
 # Vista Previa de Mi Catalogo
 
+## E7 A#19
+
+- Se agrego un log a la pagina
+
+![](/preview/E7A19.png)
+
 ## E7 A#18
 
 - Se agrego un filtro y ya es funcional.

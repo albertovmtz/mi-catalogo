@@ -32,15 +32,15 @@
   
     <div class="form-group">
       <label>Modelos</label>
-      <input type="text" class="form-control" id="modelos"[(ngModel)]="auto.modelos" name="modelos" min="2000" max="2020" placeholder="auto.modelos">
+      <input type="text" class="form-control" disabled id="modelos"[(ngModel)]="auto.modelos" name="modelos" min="2000" max="2020" placeholder="auto.modelos">
       
-      <div style="display: flex; justify-content: space-around; justify-items: center; text-align: center;">
+      <!-- <div style="display: flex; justify-content: space-around; justify-items: center; text-align: center;">
           <input #selectorMinimo name="min" type="range" min="2000" max="2020" (input)="setMin(selectorMinimo.value)" value="2010">
           <br>{{ selectedMin }}
         
           <input #selectorMaximo name="max" type="range" min="2000" max="2020"  (input)="setMax(selectorMaximo.value)" value="2015">
           <br>{{ selectedMax }}
-      </div>
+      </div> -->
       
 
       <!-- <form>

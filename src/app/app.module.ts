@@ -17,6 +17,7 @@ import { DetallesAutosComponent } from './detalles-autos/detalles-autos.componen
 import { ModalConfirmActionComponent } from './modal-confirm-action/modal-confirm-action.component';
 import { ForbiddenNameDirective } from './directives/forbidden-name.directive';
 import { FormatoModelosPipe } from './pipes/formato-modelos.pipe';
+import { LogComponent } from './log/log.component';
 
 
 
@@ -35,6 +36,7 @@ import { FormatoModelosPipe } from './pipes/formato-modelos.pipe';
     ModalConfirmActionComponent,
     ForbiddenNameDirective,
     FormatoModelosPipe,
+    LogComponent,
   ],
   imports: [
     BrowserModule,
